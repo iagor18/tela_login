@@ -1,23 +1,25 @@
 @charset "UTF-8";
 
+/* Celular Landscape */
 
-
-@media screen and (max-width: 767px) and (orientation: landscape) {
+@media screen and (max-height: 767px) and (orientation: landscape) {
 
     section#login {
         display: flex;
         flex-direction: row;
-        width: 95vw;
         height: 90vh;
+        width: 80vw;
     }
 
-    #imagem {
-        width: 40%;
-        height: 100%;
+    section#login > div#imagem {
+        flex: 0 0 40%;
+        height: auto; /* remove qualquer altura fixa anterior */
+        background-size: cover;
+        background-position: center;
     }
 
     #formulario {
-        width: 60%;
+        flex: 1;
     }
 
 }
