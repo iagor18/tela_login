@@ -2,8 +2,22 @@
 
 
 
-@media screen and (orientation: landscape) {
-    body {
-        background-color: red;
+@media screen and (max-width: 767px) and (orientation: landscape) {
+
+    section#login {
+        display: flex;
+        flex-direction: row;
+        width: 95vw;
+        height: 90vh;
     }
+
+    #imagem {
+        width: 40%;
+        height: 100%;
+    }
+
+    #formulario {
+        width: 60%;
+    }
+
 }
