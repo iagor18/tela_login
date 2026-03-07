@@ -91,7 +91,7 @@ div.campo > input {
     width: calc(100% - 45px);
     transform: translateY(-11px);
     
-}
+}   
 
 form > input[type=submit] {
     display: block;
